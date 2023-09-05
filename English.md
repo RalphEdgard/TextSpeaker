@@ -2,6 +2,7 @@
 
 The link above directs you to the repo that houses the code so that you can clone it to your local unit.
 
+[Previous page](/)
 [Cambia a Espanol](/Spanish.md)
 
 This static template will show you how to use ChatGPT and with, ralph's, my code to practice english by speaking with the AI (Artificial Intelligence); by speaking with it and getting a voice generated response by the AI. There has to be some manual work done, but carrying out the simple tasks to get a speaking experience will be very easy. 
@@ -31,8 +32,10 @@ This portion of the static page will help you understand how my program behaves.
 
 When you run the program a .mp3 file would be generated, this is the voice of the program. This file won't be deleted unless you delete it, any new contents that are in the file will overwrite the contents in the output.mp3 file it won't add more files to your memory. The way this portion works is when you input text into the inputFile.txt file it will generate a recording using the text in that file. 
 
+You must first tell the program that you do not want it to repeat what the AI said, so type 'N', before you input new contents in the file or else it will not speak the new contents. It will also take it some time for the program to speak greater contents that have paragraphs of text, but it won't take too long, this can be upgraded later on. 
+
 When you input "N" the program will terminal the shell process, this means that you would have to open a new terminal window and go to the repo and run the program again. The program will come with the inputFile.txt, this file is very important because this is where you will input the AI's responses, if you take this file out the program will try to create another one. If it can't then it will display an error stating that it can't find the file. If this occurs you can manually create the file using the finder or just run this command: 
 
 <code>touch inputFile.txt</code> 
 
-and ensure that the newly created file is under the right directory which would be TextSpeaker. 
+and ensure that the newly created file is under the right directory which would be TextSpeaker. You can message me to let me know what upgrades do you want to make the program have better sessions with you. 
