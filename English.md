@@ -6,8 +6,7 @@ The link above directs you to the repo that houses the code so that you can clon
 
 This static template will show you how to use ChatGPT and with, ralph's, my code to practice english by speaking with the AI (Artificial Intelligence); by speaking with it and getting a voice generated response by the AI. There has to be some manual work done, but carrying out the simple tasks to get a speaking experience will be very easy. 
 
-<code>
-git clone https://github.com/RalphEdgard/TextSpeaker.git
+<code>git clone https://github.com/RalphEdgard/TextSpeaker.git
 # This code is used to change directories you can also do this in Finder
 cd TextSpeaker
 </code>
