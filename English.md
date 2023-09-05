@@ -1,5 +1,7 @@
 # TextSpeaker
 
+View on Github is the repo where you can check the code and clone it there by clicking on it with your cursor.
+
 The link above directs you to the repo that houses the code so that you can clone it to your local unit.
 
 [Cambia a Espanol](/Spanish.md)

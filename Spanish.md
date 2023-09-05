@@ -1,5 +1,7 @@
 # TextSpeaker
 
+"Ver en Github" es el repositorio donde puedes revisar el código y clonarlo allí haciendo clic en él con tu cursor.
+
 El enlace de arriba te dirige al repositorio que contiene el código para que puedas clonarlo en tu unidad local.
 
 [Switch to English](/English.md)
