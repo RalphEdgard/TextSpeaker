@@ -17,7 +17,7 @@ def text_to_speech(text):
 def main():
     while True: 
         try:
-            inputCommandBoolean = input("Would you like to input some text? (Y or N): ")
+            inputCommandBoolean = input("Have you input some text? (Y or N): ")
             # Open the file in read mode
             if inputCommandBoolean == 'Y':
                 content = ""
@@ -30,13 +30,22 @@ def main():
                     with open("inputFile.txt", 'r') as file:
                         # Read the content of the file
                         content = file.read()
-                    text_to_speech(str(content))
                     print("\n\n" + str(content) + "\n\n")
+                    text_to_speech(str(content))
+                    binaryInput = "Y"
+                    
+                    while binaryInput != 'N':
+                        if input("Would you like the program to speak again? (Y or N): ") == "Y":
+                            print("\n\n" + str(content) + "\n\n")
+                            text_to_speech(str(content))
+                        else:
+                            break
+                    
                     if len(content) != 0:
                         with open("inputFile.txt", "w") as file:
                             pass  # Pass does nothing, effectively emptying the file
-            else:
-                os.system("osascript -e 'quit app \"Terminal\"'")
+            # else:
+            #     os.system("osascript -e 'quit app \"Terminal\"'")
         except FileNotFoundError:
             print("\n\nFile not found\n\n")
             os.system("touch inputFile.txt")
