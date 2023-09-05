@@ -44,7 +44,7 @@ def main():
                     if len(content) != 0:
                         with open("inputFile.txt", "w") as file:
                             pass  # Pass does nothing, effectively emptying the file
-            else:
+            elif inputCommandBoolean == 'N':
                 os.system("osascript -e 'quit app \"Terminal\"'")
         except FileNotFoundError:
             print("\n\nFile not found\n\n")
