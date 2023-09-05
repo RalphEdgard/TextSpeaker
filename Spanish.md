@@ -2,7 +2,7 @@
 
 El enlace de arriba te dirige al repositorio que contiene el código para que puedas clonarlo en tu unidad local.
 
-[Anterior pagina](/)
+[Anterior pagina](/..)
 [Switch to English](/English.md)
 
 Esta plantilla estática te mostrará cómo utilizar ChatGPT y, con el código de Ralph y el mío, practicar inglés hablando con la inteligencia artificial; al hablar con ella y recibir una respuesta generada por la voz de la IA. Hay que realizar cierto trabajo manual, pero llevar a cabo las tareas sencillas para obtener una experiencia de conversación será muy fácil.

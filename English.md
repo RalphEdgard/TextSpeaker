@@ -2,7 +2,7 @@
 
 The link above directs you to the repo that houses the code so that you can clone it to your local unit.
 
-[Previous page](/)
+[Previous page](/..)
 [Cambia a Espanol](/Spanish.md)
 
 This static template will show you how to use ChatGPT and with, ralph's, my code to practice english by speaking with the AI (Artificial Intelligence); by speaking with it and getting a voice generated response by the AI. There has to be some manual work done, but carrying out the simple tasks to get a speaking experience will be very easy. 
