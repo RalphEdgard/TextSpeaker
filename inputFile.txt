@@ -1,0 +1,1 @@
+I am ChatGPT, a computer program developed by OpenAI. I'm based on the GPT-3.5 architecture, which stands for "Generative Pre-trained Transformer 3.5." I'm designed to understand and generate human-like text based on the input I receive. You can ask me questions, have conversations, seek information, or even request assistance with various tasks. How can I assist you today?
