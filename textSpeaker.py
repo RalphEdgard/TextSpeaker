@@ -3,6 +3,7 @@ import os
 import time
 import pyperclip
 import pyautogui
+from pydub import AudioSegment
 
 def is_file_empty(file_path):
     try:
@@ -13,9 +14,11 @@ def is_file_empty(file_path):
         return True
     
 def text_to_speech(text):
-    tts = gTTS(text=text, lang="en")
-    tts.save("output.mp3")
-    os.system("afplay output.mp3")
+    if text.strip():
+        tts = gTTS(text=text, lang="en")
+        tts.save("output.mp3")
+        os.system("afplay output.mp3")
+
 
 def main():
     try:
@@ -53,8 +56,9 @@ def main():
                     if message == "Zulu, Echo, 11":
                         os.system("osascript -e 'quit app \"Terminal\"'")
 
-                    print("\n" + str(message))
-                    text_to_speech(message)
+                    for sentence in message.split("."):
+                        print('\n' + sentence)
+                        text_to_speech(sentence)
 
         elif autoOrManual == 'manual':
             while True: 
